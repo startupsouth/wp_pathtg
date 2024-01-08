@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap link  -->
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+  <!-- font  link  -->
+  <link rel="stylesheet" href="../font_6/css/all.min.css">
+  <!-- style.css link  -->
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Contact</title>
+</head>
+
+<body>
+
+  <!-- header/navbar-section  -->
+  <header>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html"> <img src="../images/ptg-logo.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa fa-bars" onclick="barMenu(this)"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active-nav" href="../index.html" role="button" aria-expanded="false">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/about-us.html" role="button" aria-expanded="false">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                  Services <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a href="../html/what-we-do.html">Savings</a></li>
+                  <li><a href="../html/what-we-do-education.html">Educational</a></li>
+                </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link -toggle" href="#" id="navbar" role="button" data-bs-toggle="" aria-expanded="false" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+                Media <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="../html/recent-news.html">Recent News</a></li>
+                <li><a href="../html/singles.html">Read More</a></li>
+              </ul>
+          </li>
+            <li class="nav-item about">
+              <a class="nav-link -toggle" href="../html/contact.html" id="navbar" role="button" data-bs-toggle="" aria-expanded="false">
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- hero section  -->
+  <div class="container div-sections hero pt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 pt-2 pt-lg-5">
+        <span class="h6-tag mb-3 fw-bold">cONTACT us</span>
+        <h2 class="mb-4 text pt-3">Questions Enquiries? Please feel free to contact us through these channels</h2>
+      </div>
+      <div class="col-lg-5 contact">
+        <h6 class="mb-3">Contact Information</h6>
+        <ul class="p-0">
+          <li class="d-lg-flex p-2 pb-3">
+              <i class="fa fa-location-dot me-3 pt-lg-2"></i>
+             <span>
+              C Block 19 Up, AbleGod Zone Ariaria  
+              Off Polaris Bank by Faulks Road, 
+              Aba, Abia State.
+             </span>
+          </li>
+          <li class="p-2 mb-3"> <span><i class="fa fa-envelope me-3"></i></span><a href="#" class="text-dark">info@pathtogrowth.org</a></li>
+          <li class="py-2 d-flex p-2">
+            <i class="fa fa-mobile me-3"></i>
+            <ul class="p-0">
+              <li>+234 803 91 234 567</li>
+              <li>+234 803 91 234 567</li>
+            </ul>
+           </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- get in touch / map section  -->
+  <div class="container-fluid map pt-5 pb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 pe-lg-0">
+        <!-- <img src="../images/map.png" alt="" class="img-fluid"> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.8985858797328!2d7.3481035708443825!3d5.120041626538468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042995f9727b4f3%3A0xd09e20845637dada!2s44%20Faulks%20Rd%2C%20Aba%20450102%2C%20South%2C%20Abia!5e0!3m2!1sen!2sng!4v1690983871505!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google-map"> 
+        </iframe>
+      </div>
+      <div class="col-lg-5 bg-white p-4 p-lg-2 pe-lg-3 ps-lg-3">
+        <form class="row justify-content-center mt-lg-2">
+        <h6>Get in touch</h6>
+          <div class="col-lg-12 input-group mb-lg-2">
+            <label for="name" class="py-3">Full Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="col-lg-12 input-group mb-lg-2">
+            <label for="email" class="py-3">Email Address</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="col-lg-12 mb-3">
+            <label for="textarea" class="py-3">Enter Message</label>
+            <textarea name="textarea" id="" cols="30" rows="0" class="py-3"></textarea>
+          </div>
+          <div id="submit">
+            <button type="submit" class="btn btn-loan fw-bold">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- access micro loan section  -->
+  <div class="container-fluid p-4 micro-loan div-sections mb-0">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <h2 class="text-center py-4 text-white">Access micro loans & financial empowerment </h2>
+        <div class="button-div mb-5 text-center pb-lg-3 d-flex justify-content-center mt-lg-4">
+          <button class="btn btn-loan me-lg-4 me-2"><a href="#">Apply for Loans</a></button>
+          <button class="btn btn-partner"><a href="#">Partner with us</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row justify-content-center text-lg-center p-4 ps-0">
+      <div class="col-lg-3">
+        <p class="text-white"><small><span><i class="fa-regular fa-circle-check text-white me-4"></i></span>Financial education</small></p>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-white"><small><span><i class="fa-regular fa-circle-check text-white me-4"></i></span>Financial education</small></p>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-white"><small><span><i class="fa-regular fa-circle-check text-white me-4"></i></span>Financial education</small></p>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-white"><small><span><i class="fa-regular fa-circle-check text-white me-4"></i></span>Financial education</small></p>
+      </div>
+    </div> -->
+  </div>
+
+   <!-- footer section  -->
+   <footer class="p-5 ps-0 text-white">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-lg-4">
+          <img src="../images/ptg-logo.png" alt="">
+          <p class="py-3 tex">
+            Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.
+          </p>
+          <ul class="p-0 d-flex" style="gap: 40px;">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+        <div class="col-lg-2 quick-link">
+          <h6 class="mb-4">Quick Links</h6>
+          <ul class="p-0">
+            <li><a href="#">Our Vision </a></li>
+            <li><a href="#">Our Mision </a></li>
+            <li><a href="#">Our Impact </a></li>
+            <li><a href="#">Press </a></li>
+            <li><a href="#">Careers </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 services">
+          <h6 class="mb-4">Services</h6>
+          <ul class="p-0">
+            <li><a href="#">Loans & Savings</a></li>
+            <li><a href="#">Financial Education</a></li>
+            <li><a href="#">Economic Empowerment </a></li>
+            <li><a href="#">MSME Incubation Hub </a></li>
+            <li><a href="#">MSME Training</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 reach">
+          <h6 class="mb-4">Reach Us</h6>
+          <ul class="p-0">
+            <li><a href="#"><span><i class="fa fa-envelope me-3"></i></span>hello@pathtogrowth.com</a></li>
+            <li class="py-2"> <span><i class="fa fa-mobile me-2"></i></span><small> +234 90765 43210</small></li>
+            <li><small><i class="fa fa-location-dot me-3"></i>44 Faulks Road, Ariaria Market Road, Aba, Abia State, Nigeria</small></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <p class="tex">© 2020 Path to Growth. All rights reserved</p>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <span><a href="#">Terms & Conditions</a> <span class="dot">|</span> </span>
+            <span><a href="#">Privacy Policy</a> <span class="dot">|</span> </span>
+            <span><a href="#">Sitemap</a> <span class="dot">|</span> </span>
+            <span><a href="#">Disclaimer</a></span>
+          </div>
+      </div>
+    </div>
+  </footer>
+  
+    <script src="../bootstrap/bootstrap.min.js"></script>
+  <script src="../javascript/index.js"></script>
+</body>
+
+</html>

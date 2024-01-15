@@ -1,5 +1,5 @@
   <!-- news section  -->
-  <div class="container news div-sections">
+  <div class="container-fluid pad-all news div-sections">
     <div class="row gy-4">
     <?php
       $args = array(

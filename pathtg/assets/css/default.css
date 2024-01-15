@@ -90,7 +90,7 @@ h6 {
 p {
   color: #030303;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -99,7 +99,7 @@ p {
 .p-tag {
   color: #030303;
   font-family: Inter;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -112,6 +112,9 @@ ul {
 
 a {
   text-decoration: none;
+}
+.card{
+  border: none;
 }
 
 /* navbar section  */
@@ -133,7 +136,7 @@ nav .navbar-nav .nav-item .nav-link {
 }
 nav .navbar-nav .nav-item .nav-link:hover{
   background-color: rgba(3, 254, 138,0.80) !important;
-  color: #fff;
+  color: #030303;
   font-weight: 600;
 }
 nav .navbar-nav .about .nav-link{
@@ -205,10 +208,14 @@ h1 {
   align-items: center;
   background: linear-gradient(0deg, #03FE8A 0%, #03FE8A 100%), linear-gradient(0deg, #312E89 0%, #312E89 100%), #312E89;
 }
+.hero-path-2 img{
+  object-fit: cover;
+  object-position: top center;
+}
 
 /* welcome to path to growth   */
 .p-t-grow-item-1 {
-  height: 406px;
+  height: 500px;
   background: linear-gradient(rgba(49, 46, 137, 0.70), rgba(49, 46, 137, 0.70));
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,6 +223,7 @@ h1 {
   padding-top: 6em;
   padding-bottom: 8em;
   position : relative;
+  overflow-y: hidden;
 }
 .p-t-grow-item-1 .div-pt{
   height: 100px;
@@ -248,6 +256,8 @@ z-index: -1;
 .p-t-grow .overlay img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .p-t-grow-item-1 span i {
@@ -340,7 +350,7 @@ z-index: -1;
 }
 
 .testimonial .p-tag {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 32px;
 }
@@ -373,7 +383,7 @@ z-index: -1;
 
 .news p {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -403,9 +413,13 @@ z-index: -1;
   background: linear-gradient(0deg, #03FE8A 0%, #03FE8A 100%), linear-gradient(0deg, #312E89 0%, #312E89 100%), #312E89;
   color: #312E89;
 }
+.micro-loan .btn-loan a{
+  color: #312E89;
+}
 
 .micro-loan .btn-partner {
   background: #fff;
+  color: #312E89;
 }
 
 
@@ -459,15 +473,26 @@ footer .terms .terms-item span a{
   padding-top: 5em;
   padding-bottom: 5em;
 }
+.all-div{
+  padding: 100px;
+}
 
-.recent-news img {
-  height: 192px;
-  width: 293px;
+.recent-news img , .training-program img {
+  height: 100%;
+  width: 100%;
   position: relative;
-  object-fit: fill;
-  flex-shrink: 0;
+  object-fit: cover;
+  object-position: top center;
   border-radius: 2px;
   display: flex;
+}
+.recent-news  .card{
+  border: none;
+  /* height: 400px; */
+}
+.recent-news .card-img-top , .training-program .card-img-top {
+  height: 300px;
+  overflow-y: hidden;
 }
 .p-tag-div{
   /* height: 100px; */
@@ -544,6 +569,12 @@ footer .terms .terms-item span a{
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.about-section-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 
@@ -648,7 +679,9 @@ footer .terms .terms-item span a{
   width: 100%;
   height: 100%;
 }
-
+.map .map-content{
+  height: 400px;
+}
 .map input,
 textarea {
   width: 100%;
@@ -686,27 +719,38 @@ span {
   padding: 4em;
 }
 
-
-.carousel .carousel-control-next-icon,
+.carousel-buttons {
+display: flex;      justify-content: center;      align-items: center;      height: 100px;
+width: 200px;
+}
+/* .carousel .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  background-color: #0B0D17;
-  color: black !important;
+  background-color: rgba(0, 0, 0, 0, 0.75);
+  color: green !important;
   position: relative;
-  /* top: 15em; */
 }
 
 .carousel-control-prev-icon {
   position: relative;
-  /* left: 5em; */
-}
+} */
 
-.carousel-control-next-icon {
+/* .carousel-control-next-icon {
   position: relative;
   right: 0em;
+} */
+
+@media(min-width: 1400px) {
+  .pad-all{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
-
 @media (min-width: 992px) {
+  .pad-all{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
   .btn-loan {
     font-size: 16px;
     font-weight: 600;
@@ -758,12 +802,12 @@ span {
   }
 
   .p-tag {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
   }
 
   p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -835,7 +879,7 @@ span {
   .recent-news p {
     text-align: center;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
@@ -870,7 +914,7 @@ span {
 
   /* about section ending  */
 .training-program img{
-  height: 150px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: top center;
@@ -948,19 +992,11 @@ span {
   .carousel-control-prev-icon {
     background-color: #0B0D17;
     color: black !important;
-    position: relative;
-    top: 15em;
+    /* position: relative; */
+    transform: translateY(7em);
+    /* top: 15em; */
   }
 
-  .carousel-control-prev-icon {
-    position: relative;
-    left: 5em;
-  }
-
-  .carousel-control-next-icon {
-    position: relative;
-    right: 60em;
-  }
 
 }
 
@@ -992,12 +1028,17 @@ span {
   img {
     width: 100%;
     width: auto;
+    position: relative;
+    object-fit: cover;
+    object-position: top center;
   }
   .hero-path-2{
     padding-top: 25px;
   }
   .hero-path-2 img{
     margin-top: 2em;
+    object-fit: cover;
+    object-position: top center;
   }
   .hero-section{
     margin-top: 4em;
@@ -1006,7 +1047,7 @@ span {
     text-align: center;
   }
   .news p, h6, h2{
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
   .second-img {
     width: 100%;

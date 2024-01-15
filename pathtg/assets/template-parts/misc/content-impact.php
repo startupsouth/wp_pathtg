@@ -1,6 +1,6 @@
  <!-- our impact in number  -->
  <div class="container-fluid impact-content div-sections py-lg-5">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-lg-4 impact-item-1">
         <h2> Our Impact in numbers </h2>
         <p class="small fw-bold text-black-50 py-2">With our super powers we have reached this</p>

@@ -12,15 +12,15 @@
 <?php get_header(); ?>
 
 <!-- hero section  -->
-<div class="container div-sections hero pt-5">
-  <div class="row justify-content-center gy-4">
+<div class="container div-sections">
+  <div class="row justify-content-center gy-4 mx-auto">
     <div class="col-lg-6 pt-2 pt-lg-5 order-lg-first order-last">
       <span class="h6-tag mb-3">What we do</span>
-      <h2 class="mb-4 text pt-3 ps-0">Educational <br class="d-none d-lg-block"> Trainings</h2>
-      <p class="mb-4">
+      <h2 class="mb-2 mb-lg-4 text pt-3 ps-0">Educational Trainings</h2>
+      <p class="my-4 mb-lg-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. 
       </p>
-      <div class="news-button">
+      <div class="news-button my-lg-5">
         <button class="btn btn-partner"><a href="#">Contact Us </a></button>
       </div>
     </div>
@@ -31,8 +31,8 @@
 </div>
 
 <!-- upcoming entrepreneur section  -->
-<div class="container div-sections">
-    <div class="row gx-lg-5 justify-content-center gy-5">
+<div class="container-fluid pad-all div-sections">
+    <div class="row gx-lg-5 justify-content-center mx-auto gy-5">
         <div class="col-lg-6">
             <img src="<?php echo get_template_directory_uri (); ?>/assets/images/entr-1.png" alt="" class="img-fluid">
           <div class="d-lg-flex mt-3">
@@ -64,13 +64,13 @@
 </div>
 
 <!-- our training program section  -->
-<div class="container div-sections training-program">
-    <div class="row">
-        <div class="col-lg-7">
+<div class="container-fluid pad-all div-sections training-program">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
           <h2 class="py-4 fw-bold">Some of our training programs </h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row my-3 gy-3">
       <?php
       $args = array(
       'post_type'      => 'post',
@@ -81,13 +81,16 @@
           if ($query->have_posts()) :
           while ($query->have_posts()) : $query->the_post();
           ?>
-        <div class="col-lg-3 tra-pro">
-        <?php if (has_post_thumbnail()) : ?>
+        <div class="col-lg-3 tra-pro text-start">
+        <div class="card">
+       <div class="card-img-top">
+       <?php if (has_post_thumbnail()) : ?>
                <img src="<?php the_post_thumbnail_url(); ?>" loading="lazy" alt="..." class="img-fluid">
                <?php endif; ?>
-          <?php the_title( '<h6  class="py-2 fw-bolder">', '</h6>' ) ;  ?>
+       </div>
+          <?php the_title( '<h6  class="pt-2 fw-bolder">', '</h6>' ) ;  ?>
           <a href="<?php echo esc_url( get_permalink() ); ?>"> 
-          <p class="text-lg-start my-2">
+          <p class="text-start">
           <?php
                   the_excerpt();
                    wp_link_pages(array(
@@ -97,6 +100,7 @@
                ?>
           </p>
          </a>
+        </div>
         </div>
         <?php
        endwhile;

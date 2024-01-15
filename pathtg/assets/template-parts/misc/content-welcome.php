@@ -1,5 +1,5 @@
   <!-- welcome to path to growth  -->
-  <div class="container p-t-grow div-sections pt-lg-5">
+  <div class="container-fluid pad-all p-t-grow div-sections pt-lg-5">
     <div class="row">
     <div class="col-lg-10  text-center mx-auto">
         <h2>Welcome to Path To Growth</h2>

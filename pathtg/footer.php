@@ -6,7 +6,7 @@
 
  <!-- footer section  -->
  <footer class="p-5 ps-3 text-white">
-    <div class="container">
+    <div class="container-fluid pad-all">
       <div class="row justify-content-center pb-5">
         <div class="col-lg-4">
           <img src="<?php echo get_template_directory_uri (); ?>/assets/images/ptg-logo.png" alt="">

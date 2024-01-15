@@ -17,7 +17,7 @@
   <!-- header/navbar-section  -->
   <header>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white">
-      <div class="container">
+      <div class="container-fluid pad-all">
       <?php
             $custom_logo_id = get_theme_mod('custom_logo');
             $logo = wp_get_attachment_image_src($custom_logo_id, 'full');

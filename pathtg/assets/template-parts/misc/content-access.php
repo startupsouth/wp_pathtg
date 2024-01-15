@@ -9,7 +9,7 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center text-lg-center p-4 ps-0">
+    <!-- <div class="row justify-content-center text-lg-center p-4 ps-0">
       <div class="col-lg-3">
         <p class="text-white"><small><span><i class="fa-regular fa-circle-check text-white me-4"></i></span>Financial education</small></p>
       </div>
@@ -22,5 +22,5 @@
       <div class="col-lg-3">
         <p class="text-white"><small><span><i class="fa-regular fa-circle-check text-white me-4"></i></span>Financial education</small></p>
       </div>
-    </div>
+    </div> -->
   </div>

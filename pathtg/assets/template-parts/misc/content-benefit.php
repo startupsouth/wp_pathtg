@@ -1,6 +1,6 @@
   <!-- benefit of working with us  -->
-  <div class="container benefit div-sections">
-    <div class="row gy-5">
+  <div class="container-fluid pad-all benefit div-sections">
+    <div class="row gy-5 justify-content-center">
       <div class="col-lg-12">
         <h2> Benefits of working <br> with us</h2>
       </div>

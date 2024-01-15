@@ -15,7 +15,7 @@
   <!-- hero section  -->
   <div class="container-fluid news div-sections hero-news">
     <div class="row justify-content-center gy-4">
-      <div class="col-lg-5 pt-2">
+      <div class="col-lg-5 pt-lg-2 ps-2">
         <h6 class="p-tag mb-3">TOP NEWS</h6>
         <h2 class="mb-4 text">Path to Growth Offers Over 2Billion in Loans</h2>
         <p class="mb-4 pe-lg-5">
@@ -33,7 +33,7 @@
 
 
   <!-- read our recent news  -->
-  <div class="container recent-news my-lg-5">
+  <div class="container-fluid pad-all recent-news my-lg-5">
     <div class="row">
       <div class="col-lg-8 text-center mx-auto">
         <h2>Read our Recent News</h2>
@@ -54,11 +54,14 @@
          while ($query->have_posts()) : $query->the_post();
        ?>
       <div class="col-lg-3 tra-pro">
+      <div class="card">
+      <div class="card-img-top">
       <?php if (has_post_thumbnail()) : ?>
-               <img src="<?php the_post_thumbnail_url(); ?>" loading="lazy" alt="..." class="img-fluid mx-auto">
+               <img src="<?php the_post_thumbnail_url(); ?>" loading="lazy" alt="..." class="img-fluid">
                <?php endif; ?>
-        <?php the_title( '<h6  class="pt-2  text-start ps-5 ps-lg-0">', '</h6>' ) ;  ?> 
-        <div class="p-tag-div pt-0 mt-0 ps-5 ps-lg-0">
+      </div>
+        <?php the_title( '<h6  class="pt-2  text-left ps-lg-0">', '</h6>' ) ;  ?>   
+        <div class="p-tag-div pt-0 mt-0 ps-0">
         <a href="<?php echo esc_url( get_permalink() ); ?>" class="">
         <p style="text-align: start;" class="">
         <?php
@@ -71,6 +74,7 @@
         </p>
                </a>
                   </div>
+      </div>
       </div>
       <?php
        endwhile;

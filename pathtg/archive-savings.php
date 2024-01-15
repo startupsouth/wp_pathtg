@@ -12,7 +12,7 @@
 <?php get_header(); ?>
 
   <!-- hero section  -->
-  <div class="container div-sections hero pt-5">
+  <div class="container-fluid  div-sections hero pt-5">
     <div class="row justify-content-center">
       <div class="col-lg-5 pt-2 pt-lg-5 order-lg-first order-last">
         <span class="h6-tag mb-3">What we do</span>
@@ -32,7 +32,7 @@
 
 
   <!-- providing loan services  -->
-  <div class="container providing-loan">
+  <div class="container-fluid pad-all providing-loan">
     <div class="row justify-content-center">
       <div class="col-lg-10 text-center py-5">
         <h2>Providing loan services to <br> those who need it</h2>

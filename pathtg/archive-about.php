@@ -11,16 +11,16 @@
 ?>
 <?php get_header(); ?>
 
-<div class="container hero-section-about div-sections">
-    <div class="row">
-      <div class="col-lg-6">
+<div class="container-fluid-xxl pad-all hero-section-about div-sections">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
         <h6 class="text mb-4">About Us</h6>
         <h2>
           We exist to provide critical financial & business support to MSMEs
         </h2>
       </div>
-      <div class="col-lg-6">
-        <h6 class="pt-5 mb-3">
+      <div class="col-lg-7">
+        <h6 class="pt-5 mt-lg-4 mb-3">
           From providing micro lending services to MSMEs, we have gone even further to provide financial and business
           eduction to ensure that you grow
         </h6>
@@ -34,10 +34,10 @@
   </div>
 
   <!-- about image section  -->
-  <div class="container div-sections py-0">
+  <div class="container-fluid pad-all div-sections py-0 about-section-img">
     <div class="row justify-content-center">
       <div class="col-lg-12 text-center">
-        <img src="<?php echo get_template_directory_uri (); ?>/assets/images/about-img.png" alt="" class="img-fluid">
+        <img src="<?php echo get_template_directory_uri (); ?>/assets/images/about-img.png" alt="" class="">
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@
 
 
   <!-- objective section  -->
-  <div class="container div-sections">
+  <div class="container-fluid pad-all div-sections">
     <h2 class="py-4">Our Objectives</h2>
     <div class="row justify-content-center">
       <div class="col-lg-4">
@@ -103,7 +103,7 @@
 
 
   <!-- key partner section  -->
-  <div class="container div-sections">
+  <div class="container-fluid pad-all div-sections">
     <div class="row justify-content-center">
       <div class="col-lg-3">
         <h2>Our Key Partners</h2>
@@ -139,7 +139,7 @@
 
 
   <!-- team section  -->
-  <div class="container team div-sections">
+  <div class="container-fluid pad-all team div-sections">
     <h2 class="text-center py-4">Our Team</h2>
     <div class="row gy-5 gx-lg-5">
     <?php

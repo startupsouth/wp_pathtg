@@ -1,4 +1,4 @@
-name: pathtg Sync
+name: pathtg 
 on:
   push:
     branches:

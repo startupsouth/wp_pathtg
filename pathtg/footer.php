@@ -109,11 +109,11 @@
       </div>
       <div class="row justify-content-center terms">
           <div class="col-lg-6">
-            <p class="tex">© 2024 Paths to Growth. All rights reserved</p>
+            <p class="tex">© 2025 Path to Growth. All rights reserved</p>
           </div>
           <div class="col-lg-6 text-lg-end terms-item">
             <span><a href="#">Terms & Conditions</a>  <span class="dot">|</span> </span>
-            <span><a href="#">Privacy Policy</a> <span class="dot">|</span> </span>
+            <span><a href="#">Privacy Policies</a> <span class="dot">|</span> </span>
             <span><a href="#">Sitemap</a>  <span class="dot">|</span> </span>
             <span><a href="#">Disclaimer</a></span>
           </div>

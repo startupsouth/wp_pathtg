@@ -109,7 +109,7 @@
       </div>
       <div class="row justify-content-center terms">
           <div class="col-lg-6">
-            <p class="tex">© 2020 Path to Growth. All rights reserved</p>
+            <p class="tex">© 2024 Path to Growth. All rights reserved</p>
           </div>
           <div class="col-lg-6 text-lg-end terms-item">
             <span><a href="#">Terms & Conditions</a>  <span class="dot">|</span> </span>
